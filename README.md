@@ -102,7 +102,7 @@ kubectl port-forward svc/express-app-service 3000:80
 curl http://localhost:3000
 
 📸 Pipeline Verification & ScreenshotsStageProof of ExecutionAutomated CI BuildArgoCD TopologyCluster Pod Status
-
+![alt text](image.png)
 
 🔒 Security & Reliability Features
 Non-Root Containers: App runs under the unprivileged node user in Docker to mitigate container breakout risks.
