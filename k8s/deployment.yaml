@@ -19,7 +19,7 @@ spec:
       containers:
       - name: express-app
         # This image tag will be updated automatically by GitHub Actions CI
-        image: docker.io/raghu2603/express-app:e384b026227d09ccc0734dfb182b87f902036c81
+        image: docker.io/raghu2603/express-app:80c58409541fc3b7e5b7388c1ed8e8f2fe0717ee
         imagePullPolicy: Always
         ports:
         - name: http
